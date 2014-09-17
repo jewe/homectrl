@@ -43,3 +43,9 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+
+group :development do
+    	gem 'capistrano', '~> 3.0', require: false, group: :development
+	gem 'capistrano-rvm'
+end
