@@ -24,6 +24,10 @@ require 'capistrano/rails'
 # require 'capistrano/rails/assets'
 # require 'capistrano/rails/migrations'
 
+require 'capistrano/bundler'
+require 'capistrano/rails/assets'
+require 'capistrano/rails/migrations'
+
 
 # config valid only for Capistrano 3.1
 lock '3.2.1'
