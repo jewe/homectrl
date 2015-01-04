@@ -2,6 +2,26 @@ Homectrl::Application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+
+
+  # API
+  namespace :api, :defaults => {:format => :json} do
+    namespace :v1 do
+      #resources :main do
+        #collection do
+          get "command/:cmd" => 'main#command'
+          #get :states
+          #post :create
+        #end
+        #member do
+          #get :report
+        #end
+      #end
+    end
+  end
+
+
+
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
