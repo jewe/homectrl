@@ -1,0 +1,1377 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"dev",
+				"device_id"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"wr",
+				"wrap	jQuery"
+			],
+			[
+				"Net",
+				"NetworkEvent"
+			],
+			[
+				"text",
+				"text-right"
+			],
+			[
+				"text-",
+				"text-right	BootstrapClass"
+			],
+			[
+				"right",
+				"text-right	BootstrapClass"
+			],
+			[
+				"remove",
+				"remove	jQuery"
+			],
+			[
+				"mouse",
+				"mouseenter	.mouseenter()"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"no",
+				"noteable_type"
+			],
+			[
+				"pa",
+				"params"
+			],
+			[
+				"rec",
+				"record_label"
+			],
+			[
+				"pla",
+				"place_id"
+			],
+			[
+				"place",
+				"placemark_url"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"pub",
+				"published"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"geocod",
+				"geocoding_state"
+			],
+			[
+				"co",
+				"counter2"
+			],
+			[
+				"href",
+				"hrefParts"
+			],
+			[
+				"fil",
+				"filtertag_like"
+			],
+			[
+				"bv",
+				"bv_id"
+			],
+			[
+				"th",
+				"thumb_url"
+			],
+			[
+				"re",
+				"resources"
+			],
+			[
+				"pr",
+				"profession"
+			],
+			[
+				"addC",
+				"addClass	jQuery"
+			],
+			[
+				"sp",
+				"span2"
+			],
+			[
+				"geoc",
+				"geocoding_state"
+			],
+			[
+				"model",
+				"modelname"
+			],
+			[
+				"ne",
+				"nested_model"
+			],
+			[
+				"pe",
+				"penalty"
+			],
+			[
+				"ass",
+				"association"
+			],
+			[
+				"par",
+				"parent_id"
+			],
+			[
+				"sub",
+				"sublocality"
+			],
+			[
+				"geo",
+				"geocoding_comment"
+			],
+			[
+				"dat",
+				"date_of_birth"
+			],
+			[
+				"mat",
+				"match_people"
+			],
+			[
+				"first",
+				"first_or_create"
+			],
+			[
+				"fo",
+				"font-weight"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"span",
+				"span6	BootstrapClass"
+			],
+			[
+				"n",
+				"note_type"
+			],
+			[
+				"con",
+				"constantize"
+			],
+			[
+				"respond",
+				"respond_with"
+			],
+			[
+				"has",
+				"has_historic_street"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"po",
+				"popup"
+			],
+			[
+				"innerH",
+				"innerHTML"
+			],
+			[
+				"post",
+				"post	jQuery"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"inner",
+				"innerHTML"
+			],
+			[
+				"h",
+				"hover"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"prve",
+				"preventDefault	jsEvent"
+			],
+			[
+				"fa",
+				"false"
+			],
+			[
+				"wh",
+				"where"
+			],
+			[
+				"e",
+				"end	ERB end"
+			],
+			[
+				"cont",
+				"content"
+			],
+			[
+				"pl",
+				"pluralize"
+			],
+			[
+				"or",
+				"organisation"
+			],
+			[
+				"fi",
+				"first_or_create"
+			],
+			[
+				"ge",
+				"geocoding_state"
+			],
+			[
+				"desc",
+				"description"
+			],
+			[
+				"thesaurus",
+				"thesaurus_items"
+			],
+			[
+				"thesaur",
+				"thesaurus_items"
+			],
+			[
+				"up",
+				"update_attributes"
+			],
+			[
+				"setT",
+				"setTimeout	jsWindow"
+			],
+			[
+				"placema",
+				"placemark"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"en",
+				"enable"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"stre",
+				"street_number"
+			],
+			[
+				"dietzsch",
+				"dietzsch_id"
+			],
+			[
+				"spl",
+				"split	jsString"
+			],
+			[
+				"targ",
+				"currentTarget	jsEvent"
+			],
+			[
+				"ber",
+				"berlin_id"
+			],
+			[
+				"in",
+				"includes"
+			],
+			[
+				"da",
+				"date_of_death"
+			],
+			[
+				"paddin",
+				"padding-right"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"extract",
+				"extract_date"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"rem",
+				"removeClass	.removeClass"
+			],
+			[
+				"key",
+				"keypress	keypress"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"gra",
+				"grayDark"
+			],
+			[
+				"cl",
+				"class"
+			],
+			[
+				"border-bott",
+				"border-bottom-width"
+			],
+			[
+				"gray",
+				"grayLight"
+			],
+			[
+				"un",
+				"underscore"
+			],
+			[
+				"f",
+				"focus"
+			],
+			[
+				"row",
+				"row-fluid	BootstrapClass"
+			],
+			[
+				"bo",
+				"box-shadow"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"a",
+				"absolute"
+			],
+			[
+				"bord",
+				"border-bottom"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"thes",
+				"thesaurus_key"
+			],
+			[
+				"sc",
+				"scope"
+			],
+			[
+				"hi",
+				"hide	jQuery"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"btn-i",
+				"btn-info	BootstrapClass"
+			],
+			[
+				"dow",
+				"downcase"
+			],
+			[
+				"on",
+				"one	jQuery"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/state.rb",
+			"settings":
+			{
+				"buffer_size": 837,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/schedule.rb",
+			"settings":
+			{
+				"buffer_size": 552,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/api/v1/main_controller.rb",
+			"settings":
+			{
+				"buffer_size": 1466,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Gemfile",
+			"settings":
+			{
+				"buffer_size": 1471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packag",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"rgb",
+				"Preferences: Browse Packages"
+			],
+			[
+				"git",
+				"Set Syntax: Git Graph"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 114.0,
+		"history":
+		[
+			"ls",
+			"help",
+			"ls"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/local/apache2/htdocs/homectrl",
+		"/opt/local/apache2/htdocs/homectrl/app",
+		"/opt/local/apache2/htdocs/homectrl/app/controllers",
+		"/opt/local/apache2/htdocs/homectrl/app/controllers/api",
+		"/opt/local/apache2/htdocs/homectrl/app/controllers/api/v1",
+		"/opt/local/apache2/htdocs/homectrl/app/models",
+		"/opt/local/apache2/htdocs/homectrl/config",
+		"/opt/local/apache2/htdocs/homectrl/config/environments",
+		"/opt/local/apache2/htdocs/homectrl/config/initializers",
+		"/opt/local/apache2/htdocs/homectrl/log",
+		"/opt/local/apache2/htdocs/homectrl/tmp",
+		"/opt/local/apache2/htdocs/homectrl/vendor"
+	],
+	"file_history":
+	[
+		"/opt/local/apache2/htdocs/homectrl/.ruby-version",
+		"/opt/local/apache2/htdocs/homectrl/Gemfile",
+		"/opt/local/apache2/htdocs/homectrl/log/development.log",
+		"/opt/local/apache2/htdocs/homectrl/log/production.log",
+		"/opt/local/apache2/htdocs/homectrl/config/schedule.rb",
+		"/opt/local/apache2/htdocs/homectrl/config/database.yml",
+		"/opt/local/apache2/htdocs/homectrl/config/environments/production.rb",
+		"/opt/local/apache2/htdocs/homectrl/log/thin.log",
+		"/opt/local/apache2/htdocs/homectrl/config/environments/development.rb",
+		"/opt/local/apache2/htdocs/homectrl/config/environment.rb",
+		"/opt/local/apache2/htdocs/homectrl/config/initializers/inflections.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/nsd/sync_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/api/v1/monitoring_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/dictionary_articles/_form.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/dictionary_articles/report/_section_1_inhalt_deutsch.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/javascripts/application.js",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/index.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/stylesheets/nsd/sync.css.scss",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/nsd/topics_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/topic.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/nsd_importer/import_dictionaries.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/nsd_data/Lexikon/Gesamtliste_aw.csv",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/nsd_data/Lexikon/Artikel/0035_Fehr_Anton.txt",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/dictionary_articles/fullreport/_section_1_inhalt_deutsch.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/dashboard_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/export.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/layouts/_navbar_nsd.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/dashboard/exhibits.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/log/thin.log",
+		"/opt/local/apache2/htdocs/prjnsdz/log/development.log",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/export_digital_exhibition.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/init_device.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models/network_event.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models/device.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/application_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/config/initializers/devise.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/devices_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/config/station_settings_sample",
+		"/opt/local/apache2/htdocs/prjnsdz/config/routes.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/datatables/nsd/devices_datatable.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/Gemfile",
+		"/opt/local/apache2/htdocs/prjnsdz/app/datatables/nsd/network_events_datatable.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/api/network_events.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/config/initializers/inflections.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/update_rsapp.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/update_nsddata.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/update_map.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/_devices.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/_commits.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/network_events_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/commit.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/devices.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/ability.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/sync/commits.js.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/datatables/nsd/devices_status_datatable.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models/user.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141217144703_create_devices.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141204121525_create_temp_map_places.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141217064841_create_devices.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141217064913_create_network_events.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/maps.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/medium.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/media/_form.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/inputs/modal_image_select_input.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/stylesheets/fp/form.scss",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/javascripts/fp/fp_modal_select.js",
+		"/opt/local/apache2/htdocs/prjnsdz/app/inputs/modal_select_input.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/stylesheets/fp/layout.scss",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/topics/_form.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/nsd_importer/import_books.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/temp_map_place.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/temp_map_place/_step_2_results.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/temp_map_place/_filter_group.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/map_builder_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/index.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/serializers/nsd/temp_map_place_serializer.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/nsd/maps_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/temp_map_place_search.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/temp_map_place/_step_2.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/temp_map_place/_step_3.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/temp_map_place/_step_4.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/_step_1.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/camp/_step_2.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models/temp_map_place.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/organisation/_step_3.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/organisation/_step_2_results.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/organisation/_step_2.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/organisation/_filter_group.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/organisation.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/organisation_search.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141204121232_create_temp_map_places.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141204201515_create_temp_map_places.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/camp/_step_5.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/camp/_step_4.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/serializers/nsd/camp_serializer.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/place_of_remembrance/_step_5.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/place_of_remembrance_search.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/assets/stylesheets/fp/index.scss",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/person/_step_3.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/person/_step_3_results.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/map_builder/person/_filter_group.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_nsd/user.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/production.log",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141130111719_update_topics.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/nsd/dictionary_articles/fullreport/__dictionarymediumlink_0.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/datatables/nsd/dictionary_articles_datatable.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141202235201_update_topics.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141130111723_update_dictionary_articles.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141130111547_create_dictionary_articles.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141126113203_update_people.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/models_bn/source.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/bn/people/show.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/bn/sources/show.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/bn/sources/report/_section_1_ubersicht.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/bn_importer/analyse.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/bn/people_analyser_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/bn/people_analyser/alternative_places.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/bn_importer/import_sources.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/bn_data/quellen/Qualifikator Kurzbiografie.csv",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/bn_data/quellen/Qualifikator erwaehnt in.csv",
+		"/opt/local/apache2/htdocs/prjnsdz/test_bn/functional/media_controller_test.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/bn_importer/import_people.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/shared.rake",
+		"/opt/local/apache2/htdocs/prjnsdz/app/datatables/nsd/people_datatable.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/views/users/_form.html.erb",
+		"/opt/local/apache2/htdocs/prjnsdz/app/controllers/users_controller.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/config/environments/development.rb",
+		"/opt/local/apache2/htdocs/prjnsdz/db/migrate/20141128072521_update_topics.rb"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/opt/local/apache2/htdocs/prjnsdz/",
+			"/opt/local/apache2/htdocs/prjnsdz/lib/tasks/nsd_importer",
+			"/opt/local/apache2/htdocs/prjnsdz/lib/tasks",
+			"/opt/local/apache2/htdocs/prjnsdz/app/views/bn/people",
+			"/opt/local/apache2/htdocs/prjnsdz/lib",
+			"/opt/local/apache2/htdocs/prjnsdz/",
+			"/opt/local/apache2/htdocs/prjnsdz/lib/tasks",
+			"/opt/local/apache2/htdocs/prjnsdz",
+			"/opt/local/apache2/htdocs/prjnsdz/",
+			"/opt/local/apache2/htdocs/prjnsdz/app/",
+			"/opt/local/apache2/htdocs/prjnsdz/",
+			"/opt/local/apache2/htdocs/prjnsdz/app/assets/javascripts",
+			"/opt/local/apache2/htdocs/prjnsdz"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"row",
+			").utc",
+			"status.txt\")",
+			"toggle",
+			"18n",
+			"user",
+			"status",
+			"git",
+			"moda",
+			"auto_",
+			"aut",
+			"top",
+			"draw_d3map",
+			"save_as_svg",
+			"place",
+			"source.",
+			"source",
+			"association",
+			"asso",
+			"select",
+			"input",
+			" form_for",
+			"A..Z",
+			"Zip",
+			"L.GeoSearch.Provider.Google",
+			"freigeben",
+			"tag",
+			"searchterm",
+			"sort_column",
+			"sinti",
+			"row[26]",
+			"if !params[:extended].nil?",
+			"1941",
+			"aus",
+			"jews_g",
+			"cons",
+			"cons//",
+			"cons",
+			"createLink",
+			"trigg",
+			"html",
+			"commandMapping",
+			"CLASS_NAME_COMMAND_ACTIVE",
+			"wysihtml5-command-active",
+			"href",
+			"style",
+			"currentView",
+			"urlInput",
+			"alt",
+			"href",
+			".css",
+			"Link",
+			"link",
+			"Link",
+			"link",
+			"wysiwyg-color.css",
+			"link",
+			"surname",
+			"paginate_records",
+			"order",
+			"move",
+			"csv",
+			"filter_params",
+			"Signatur: ",
+			"Signatur:  ",
+			"Signatur: ",
+			"targ",
+			"Luise Paulina Joelse",
+			"versetz",
+			"cam",
+			"Seyssel",
+			"Aix",
+			"Prajs",
+			"row[1]",
+			"jew",
+			"publishers",
+			"polling_stations",
+			" id=\"\"",
+			"homo",
+			"euth",
+			"_geocode",
+			"kom",
+			"sint",
+			"kom",
+			"loc",
+			"@object_edit_url = people_url",
+			"@object_edit_url",
+			"@object_attribute = \"person.id\"",
+			"@object_attribute",
+			"@title_attribute =\"place.name\"",
+			"title_attribute",
+			"@place_association = \"place\"",
+			"@place_association",
+			"@title_attribute",
+			"placemarks.geocoding_state!=60",
+			"sinti",
+			"Bauerstraße",
+			"Heil- und Pflegeanstalt Eglfing-Haar",
+			"jeho",
+			"Neurieder Straße 22",
+			"ajax",
+			"ho",
+			"hom",
+			"icon",
+			"marker",
+			"icon",
+			"addMarker",
+			"camps",
+			"down",
+			"**",
+			"hech",
+			"Heching",
+			"Hech",
+			"skip",
+			"gattenmord",
+			" AND placemarks.lat IS NOT NULL AND placemarks.lng IS NOT NULL",
+			"repla",
+			"soziald",
+			"101011563",
+			"break",
+			"sozial",
+			"soz",
+			"http://prjns_dev.ar.tum.de",
+			"versi",
+			"clean",
+			"clan",
+			"geocode_query",
+			"error"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			")",
+			"status.txt\").utc",
+			"USER",
+			"update",
+			"display",
+			"select",
+			"selectedIdInput",
+			"dictionary",
+			"Dictionary",
+			"dictionary",
+			"title",
+			"",
+			"nsdap",
+			"",
+			"placemarks.geocoding_state!=60 AND placemarks.geocoding_state!=40",
+			"Eglfing-Haar",
+			"",
+			"Rake::Task['",
+			"/\\n/",
+			"Ortsgruppen",
+			"' + scope + '",
+			"#{scope}",
+			"self.person",
+			"@person",
+			"@place_stadelheim",
+			":add_rte",
+			":add_rte) ",
+			"judgment_id: ju",
+			"nsd",
+			".nsd",
+			"jewish: 10",
+			"",
+			"Medium",
+			"",
+			"partner",
+			"mother",
+			"",
+			"marker",
+			"users(:user_one)",
+			":user_one",
+			"video",
+			"ThesaurusItem",
+			"HelpText",
+			"help_text",
+			"thesaurus_item",
+			"ThesaurusItems",
+			"HelpTexts",
+			"version",
+			"Version",
+			"Versions",
+			"model_",
+			"models",
+			"nsd",
+			"downcase",
+			"<%= @modelname %>",
+			"<%= @modelname.lowercase %>",
+			"<%= @modelname.pluralize.lowercase %>",
+			"testsManager",
+			"record_label",
+			"ist ",
+			"record_label",
+			"BavariaTileLayer",
+			"geocodingStateLabel",
+			"._tbody",
+			"_table",
+			"",
+			"\"",
+			" =1\").order(:surname",
+			";",
+			"\";",
+			";\"",
+			";\"\n",
+			"\n",
+			"[11]",
+			" ",
+			"$p$",
+			"\";",
+			";\"",
+			"id.to_i>0",
+			".nil?",
+			"Person",
+			"person",
+			"people",
+			"People",
+			": 1",
+			"import_polling_stations",
+			"FP_PlacemarkEdit",
+			" =>",
+			";",
+			"tablereport",
+			"bauhaus_semesters",
+			"Wahllokal",
+			"PollingStation",
+			"polling_station",
+			"PollingStation",
+			"camps",
+			"camp",
+			"Camp",
+			"Camps",
+			"Wahllokale",
+			"\"",
+			"l",
+			"bauhaus_semesters",
+			"bauhaus_periods",
+			"lib/tasks/nsd_importer/",
+			"lib/tasks/bn_importer/",
+			"lib/tasks/bn_importer",
+			";",
+			": ",
+			"line",
+			"of_death",
+			"/bn_reports/",
+			"lib/tasks/bn_data",
+			"content_html: { class: :span6 } %>",
+			"self.class::DIRECTORY",
+			"",
+			"self.class::SMALL_FIELD",
+			"self.",
+			"self::WIDE_FIELD",
+			"self::SMALL_FIELD",
+			"fullreport",
+			"/fullreport/",
+			"nested_reports",
+			"fullreport",
+			"",
+			"\\n",
+			"",
+			"\\n$$$\""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/state.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 837,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								103,
+								241
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "config/schedule.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 552,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								435,
+								435
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/controllers/api/v1/main_controller.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1466,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								768,
+								856
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Gemfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 97.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								481,
+								481
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "homectrl.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"busirake",
+				"lib/tasks/nsd_importer/import_business.rake"
+			],
+			[
+				"note",
+				"app/models/note.rb"
+			],
+			[
+				"pers",
+				"app/models/bn/person.rb"
+			],
+			[
+				"dtatasc",
+				"app/assets/stylesheets/fp/datatables.scss"
+			],
+			[
+				"locnsf",
+				"config/locales/nsd/fp2.de.yml"
+			],
+			[
+				"laynav",
+				"app/views/layouts/_navbar.html.erb"
+			],
+			[
+				"eve",
+				"app/models/bn/event.rb"
+			],
+			[
+				"e",
+				"app/models/bn/event.rb"
+			],
+			[
+				"ev",
+				"app/models/bn/event.rb"
+			],
+			[
+				"",
+				"app/models/bn/person.rb"
+			],
+			[
+				"appjs",
+				"app/assets/javascripts/application.js"
+			],
+			[
+				"sho",
+				"app/views/bn/people/show.html.erb"
+			],
+			[
+				"appscss",
+				"app/assets/stylesheets/application.scss"
+			],
+			[
+				"rout",
+				"config/routes.rb"
+			],
+			[
+				"gem",
+				"Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/opt/local/apache2/htdocs/prjnsdz/prjnsdz.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 494.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

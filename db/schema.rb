@@ -14,18 +14,24 @@
 ActiveRecord::Schema.define(version: 20150103233707) do
 
   create_table "devices", force: true do |t|
+    t.string   "name",       limit: 200
+    t.string   "location",   limit: 100
+    t.float    "min"
+    t.float    "max"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "events", force: true do |t|
+    t.integer  "event_type", limit: 2
+    t.string   "msg"
     t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
   create_table "states", force: true do |t|
+    t.integer  "device_id"
+    t.float    "value"
     t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end

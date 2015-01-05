@@ -9,11 +9,24 @@ class State < ActiveRecord::Base
 
 			content.split("\r\n").each do |line|
 				timestamp,device_id,value = line.split(/S|V/,3)
-				device = Device.find(device_id)
-				State.create({
-					device_id: device.id,
-					value: value
-				})
+				if device_id == 99 
+					#VALVE_KITCHEN, LOW);
+					# digitalWrite(VALVE_LIVINGROOM, LOW);
+					# digitalWrite(VALVE_WINTERGARDEN1, LOW);
+					# digitalWrite(VALVE_WINTERGARDEN2, LOW);
+					# digitalWrite(VALVE_BATH, 
+					device = Device.find(6)
+					State.create({
+						device_id: device.id,
+						value: value
+					})
+				else 
+					device = Device.find(device_id)
+					State.create({
+						device_id: device.id,
+						value: value
+					})
+				end
 			end
 		end
 	end
