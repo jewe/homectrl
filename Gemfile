@@ -6,8 +6,10 @@ gem 'rails', '4.0.2'
 # Use sqlite3 as the database for Active Record
 gem 'mysql2'
 
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 4.0.0'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem 'purecss-rails'
+gem "font-awesome-rails"
 
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -29,7 +31,7 @@ gem 'jbuilder', '~> 1.2'
 
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
-  gem 'sdoc', require: false
+  # gem 'sdoc', require: false
 end
 
 # Use ActiveModel has_secure_password
@@ -46,7 +48,9 @@ gem 'thin'
 # gem 'debugger', group: [:development, :test]
 
 gem 'rubyserial'
-gem 'whenever'#, :require => false
+gem 'whenever'#, :require => false # cron jobs for reading xbee
+gem 'databound', '3.0.3' # js helper for rails models https://github.com/Nedomas/databound
+gem 'lodash-rails' # dependency of databound
 
 # group :development do
 #     	gem 'capistrano', '~> 3.0', require: false, group: :development

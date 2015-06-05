@@ -20,10 +20,10 @@ Homectrl::Application.routes.draw do
     end
   end
 
+  databound :states, columns: [:device_id, :value]
 
-
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  root 'dashboard#index'
+  get "dashboard/:action", controller: "dashboard", action: :action
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

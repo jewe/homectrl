@@ -7,8 +7,12 @@ development:
   adapter: mysql2
   database: homectrl_development
   username: root
+  
+  #password: root
+
   password: 6zhtgb
   host: 192.168.178.123
+  
   socket: /var/run/mysqld/mysqld.sock
 
 

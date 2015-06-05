@@ -8,6 +8,14 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 
 	append_view_path "#{Rails.root}/app/views" # you have to specify your views location as well
 
+# http://databound.me/ optional:
+# databound do
+#     model :user
+#     columns :name, :city
+#   end
+
+
+
 	def command
 		# http://192.168.54.189:3001/api/v1/command/GT
 		set_access_control_headers
@@ -15,7 +23,8 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 		#sudo chmod 0777 /dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A4007Uik-if00-port0
 
 		# no usb: RubySerial::Exception: ENOENT
-		# no access RubySerial::Exception: EACCES			   
+		# no access RubySerial::Exception: EACCES		
+
 		serialport = Serial.new '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A4007Uik-if00-port0'
 		# empty buffer
 		buffer = serialport.read 5000
@@ -36,6 +45,10 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 				out = serialport.read 5000
 			end
 		end
+
+		out = ""
+		buffer = "" 
+
 
 		render json: {
 			cmd: cmd,

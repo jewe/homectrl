@@ -9,5 +9,10 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require purecss
+ *= require font-awesome
+ *= require stylesheet_roboto
+ *= require dashboard
+ * require_tree .
  */
+

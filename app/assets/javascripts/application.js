@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require databound
 //= require turbolinks
 //= require_tree .
+//= require lodash
