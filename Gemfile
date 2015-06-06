@@ -52,9 +52,9 @@ gem 'whenever'#, :require => false # cron jobs for reading xbee
 gem 'databound', '3.0.3' # js helper for rails models https://github.com/Nedomas/databound
 gem 'lodash-rails' # dependency of databound
 
-# group :development do
-#     	gem 'capistrano', '~> 3.0', require: false, group: :development
-# 	gem 'capistrano-rvm'
-# 	gem 'capistrano-rails', '~> 1.1', require: false
-# 	gem 'capistrano-bundler', '~> 1.1', require: false
-# end
+group :development do
+    	gem 'capistrano', '~> 3.0', require: false, group: :development
+	gem 'capistrano-rvm'
+	gem 'capistrano-rails', '~> 1.1', require: false
+	gem 'capistrano-bundler', '~> 1.1', require: false
+end
