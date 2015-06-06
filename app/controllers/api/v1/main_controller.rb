@@ -46,10 +46,6 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 			end
 		end
 
-		out = ""
-		buffer = "" 
-
-
 		render json: {
 			cmd: cmd,
 			response: out,
