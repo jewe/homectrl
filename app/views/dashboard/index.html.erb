@@ -31,12 +31,12 @@
             		<%= fa_icon "clock-o" %>
 	<% end %>
 
-            	<%= link_to({action: :set_mode, :mode => 2, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_2") do %>
+            	<%= link_to({action: :set_mode, :mode => 8, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_8") do %>
 	  	jetzt an  + 
             		<%= fa_icon "clock-o" %>
 	<% end %>
 
-            	<%= link_to({action: :set_mode, :mode => 3, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_3") do %>
+            	<%= link_to({action: :set_mode, :mode => 7, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_7") do %>
 	  	jetzt aus + 
             		<%= fa_icon "clock-o" %>
 	<% end %>
@@ -53,32 +53,58 @@
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 
                 <h3 class="content-subhead"></h3>
-                <p>
-                    
-                    <%= link_to({action: :set_mode, :mode => 0, :remote => true}, class: "pure-button", id: "mode_0") do %>
-	  	immer an
-	       <% end %>
+                <p class="mode_buttons">
 
-                </p>
+	            	<%= link_to({action: :set_mode, :mode => 4, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_4") do %>
+		  	nur Esszimmer + 
+	            		<%= fa_icon "clock-o" %>
+		<% end %>
+
+	            	<%= link_to({action: :set_mode, :mode => 5, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_5") do %>
+		  	nur Küche + 
+	            		<%= fa_icon "clock-o" %>
+		<% end %>
+
+	            	<%= link_to({action: :set_mode, :mode => 6, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_6") do %>
+		  	nur Wintergarten + 
+	            		<%= fa_icon "clock-o" %>
+		<% end %>
+
+	            	<%= link_to({action: :set_mode, :mode => 3, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_3") do %>
+		  	alles aus
+		<% end %>
+
+	            	<%= link_to({action: :set_mode, :mode => 2, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_2") do %>
+		  	alles an
+		<% end %>
+		
+	        </p>
             </div>
 
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">Heizungen</h3>
                 <p>
                     <div class="valve" id="valve_0"><%= fa_icon "circle" %> Küche</div>
-                    <div class="valve" id="valve_1"><%= fa_icon "circle" %>Esszimmer</div>
-                    <div class="valve" id="valve_2"><%= fa_icon "circle" %>Wintergarten 1</div>
-                    <div class="valve" id="valve_3"><%= fa_icon "circle" %>Wintergarten 2</div>
-                    <div class="valve" id="valve_4"><%= fa_icon "circle" %>Toilette</div>
+                    <div class="valve" id="valve_1"><%= fa_icon "circle" %> Esszimmer</div>
+                    <div class="valve" id="valve_2"><%= fa_icon "circle" %> Wintergarten 1</div>
+                    <div class="valve" id="valve_3"><%= fa_icon "circle" %> Wintergarten 2</div>
+                    <div class="valve" id="valve_4"><%= fa_icon "circle" %> Toilette</div>
                 </p>
             </div>
 
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
                 <h3 class="content-subhead">Termostate</h3>
                 <p>
-                    <div class="thermostat" id="thermostat_0"><%= fa_icon "circle" %>Küche</div>
-                    <div class="thermostat" id="thermostat_1"><%= fa_icon "circle" %>Esszimmer</div>
-                    <div class="thermostat" id="thermostat_2"><%= fa_icon "circle" %>Wintergarten</div>
+                    <div class="thermostat" id="thermostat_0"><%= fa_icon "circle" %> Küche</div>
+                    <div class="thermostat" id="thermostat_1"><%= fa_icon "circle" %> Esszimmer</div>
+                    <div class="thermostat" id="thermostat_2"><%= fa_icon "circle" %> Wintergarten</div>
+                </p>
+            </div>
+
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+                <h3 class="content-subhead">Intervals</h3>
+                <p>
+                    
                 </p>
             </div>
 

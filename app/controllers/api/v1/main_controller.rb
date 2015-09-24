@@ -27,7 +27,7 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 
 		serialport = Serial.new '/dev/serial/by-id/usb-FTDI_FT232R_USB_UART_A4007Uik-if00-port0'
 		# empty buffer
-		buffer = serialport.read 5000
+		buffer = serialport.read 10000
 		# send command
 		cmd = "#{params[:cmd]}\n"
 		serialport.write(cmd)
@@ -35,14 +35,14 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 		#wait
 		sleep 0.3
 		#read
-		out = serialport.read 5000
+		out = serialport.read 10000
 		# wait and read later if nessesary
-		if out.blank?
+		if out.blank? OR !out.include?('@') 
 			sleep 0.5
-			out = serialport.read 5000
+			out = serialport.read 10000
 			if out.blank?
 				sleep 1
-				out = serialport.read 5000
+				out = serialport.read 10000
 			end
 		end
 
