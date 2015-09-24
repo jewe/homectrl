@@ -11,11 +11,11 @@
 # call after changes:
 # whenever --update-crontab homectrl
 
-# every 1.minutes do
+every 5.minutes do
 # #   command "/usr/bin/some_great_command"
-# 	runner "State.process_messages"
+ 	runner "State.process_messages"
 # #   rake "some:great:rake:task"
-# end
+end
 #
 # every 4.days do
 #   runner "AnotherModel.prune_old_records"

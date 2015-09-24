@@ -33,17 +33,16 @@ class API::V1::MainController < ActionController::Metal # ApplicationController
 		serialport.write(cmd)
 		n = Time.now
 		#wait
-		sleep 0.5
+		sleep 0.3
 		#read
-		out = ''
-		out << serialport.read(10000)
+		out = serialport.read 10000
 		# wait and read later if nessesary
-		if !out.include?('@') || out.blank? 
-			sleep 0.8
-			out << serialport.read(10000)
-			if !out.include?('@') || out.blank?
-				sleep 0.8
-				out << serialport.read(10000)
+		if out.blank? || !out.include?('@') 
+			sleep 0.5
+			out = serialport.read 10000
+			if out.blank?
+				sleep 1
+				out = serialport.read 10000
 			end
 		end
 
