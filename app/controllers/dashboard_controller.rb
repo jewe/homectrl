@@ -46,7 +46,7 @@ class DashboardController < ApplicationController
 		id = params[id].to_i
 		answer = send_cmd("GI#{id}")
 		#answer = '1 | 870 | 1290 | 11 | 1\r\n'
-		interval = Interval.new(answer.response)
+		interval = Interval.new(answer[:response])
 		render json: {
 			interval: interval,
 			on_time: interval.on_time,
