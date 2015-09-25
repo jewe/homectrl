@@ -63,6 +63,34 @@ class Interval
 		end
 	end
 
+	def mode_human
+
+		case repeat
+			when 0
+  				"Thermostat"
+			when 1
+  				"Thermostat mit Zeitschaltung"
+			when 2
+  				"alles an"
+			when 3
+  				"alles aus"
+			when 4
+  				"nur Esszimmer"
+			when 5
+  				"nur Küche"
+			when 6
+  				"nur Wintergarten"
+			when 7
+  				"aus bis Zeitschaltung"
+			when 8
+  				"an bis Zeitschaltung"
+			
+  			else
+  				"fehlerhaft"
+		end
+	end
+
+
 	def persisted? # no database
     		false
   	end

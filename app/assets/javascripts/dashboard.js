@@ -65,10 +65,11 @@ var Dashboard = {
 		var $tr = $("#interval_" + id);
 		$tr.empty();
 		//$tr.append("<td>" + id + "</td>");
+		$tr.append("<td>" + json.interval.mode + "</td>");
 		$tr.append("<td>" + json.on_time + "</td>");
+		$tr.append("<td>bis</td>");
 		$tr.append("<td>" + json.off_time + "</td>");
 		$tr.append("<td>" + json.repeat_human + "</td>");
-		$tr.append("<td>" + json.interval.mode + "</td>");
 	},
 
 
