@@ -24,7 +24,7 @@ class Interval
 	def on_time
 		h = (on/60.0).floor
 		m = on%60
-		"#{h}:#{m}"
+		"#{sprintf("%.2d", h)}:#{sprintf("%.2d", m)}"
 	end
 
 	def off_time
