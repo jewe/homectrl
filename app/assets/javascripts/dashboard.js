@@ -55,7 +55,10 @@ var Dashboard = {
 
 		for (var i=0;i<6;i++){
 			table.append("<tr id='interval_" + i + "'>");
-			$.getJSON(url + "?id=" + i).then(Dashboard.processInterval);
+			setTimeout(function(i,url){
+				console.log(this,i,url);
+				$.getJSON(url + "?id=" + this).then(Dashboard.processInterval);
+			}.bind(i,url), 200*i);
 		}
 	},
 
