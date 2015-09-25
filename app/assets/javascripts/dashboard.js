@@ -49,14 +49,14 @@ var Dashboard = {
 
 	loadIntervals: function(){
 		var url = $(this).data('url');
-		var container = $("#intervals_holder");
-		container.empty();
-		var table = container.append("<table>");
+		var $container = $("#intervals_holder");
+		$container.empty();
+		$container.append("<table>");
+		var table = $container.find('table');
 
 		for (var i=0;i<6;i++){
 			table.append("<tr id='interval_" + i + "'>");
 			setTimeout(function(url){
-				console.log(this,i,url);
 				$.getJSON(url + "?id=" + this).then(Dashboard.processInterval);
 			}.bind(i,url), 200*i);
 		}

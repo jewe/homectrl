@@ -43,7 +43,7 @@ class DashboardController < ApplicationController
 	def get_interval 
 		# http://192.168.178.123:3000/api/v1/command/GI1
 		# 1 | 870 | 1290 | 11 | 1\r\n
-		id = params[id].to_i
+		id = params[:id].to_i
 		answer = send_cmd("GI#{id}")
 		#answer = '1 | 870 | 1290 | 11 | 1\r\n'
 		interval = Interval.new(answer[:response])
@@ -53,6 +53,7 @@ class DashboardController < ApplicationController
 			off_time: interval.off_time,
 			repeat_human: interval.repeat_human,
 			mode_human: interval.mode_human,
+			answer: answer,
 		}
 	end
 
