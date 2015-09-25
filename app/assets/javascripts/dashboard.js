@@ -55,7 +55,7 @@ var Dashboard = {
 
 		for (var i=0;i<6;i++){
 			table.append("<tr id='interval_" + i + "'>");
-			setTimeout(function(i,url){
+			setTimeout(function(url){
 				console.log(this,i,url);
 				$.getJSON(url + "?id=" + this).then(Dashboard.processInterval);
 			}.bind(i,url), 200*i);
