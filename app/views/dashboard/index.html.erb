@@ -53,30 +53,30 @@
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
 
                 <h3 class="content-subhead"></h3>
-                <p class="mode_buttons">
+                <p class="mode_buttons mini_mode_buttons">
 
 	            	<%= link_to({action: :set_mode, :mode => 4, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_4") do %>
 		  	nur Esszimmer + 
 	            		<%= fa_icon "clock-o" %>
-		<% end %>
+		<% end %><br>
 
 	            	<%= link_to({action: :set_mode, :mode => 5, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_5") do %>
 		  	nur Küche + 
 	            		<%= fa_icon "clock-o" %>
-		<% end %>
+		<% end %><br>
 
 	            	<%= link_to({action: :set_mode, :mode => 6, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_6") do %>
 		  	nur Wintergarten + 
 	            		<%= fa_icon "clock-o" %>
-		<% end %>
+		<% end %><br>
 
 	            	<%= link_to({action: :set_mode, :mode => 3, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_3") do %>
 		  	alles aus
-		<% end %>
+		<% end %><br>
 
 	            	<%= link_to({action: :set_mode, :mode => 2, :remote => true}, class: "pure-button pure-button-primary-disabled", id: "mode_2") do %>
 		  	alles an
-		<% end %>
+		<% end %><br>
 		
 	        </p>
             </div>
@@ -102,9 +102,16 @@
             </div>
 
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-                <h3 class="content-subhead">Intervals</h3>
+                <h3 class="content-subhead">Zeitsteuerung</h3>
                 <p>
+                    <span id="date_display"></span><br>
+                    <span id="time_display"></span><br>
                     
+                    <div id="intervals_holder">
+                        <a class="pure-button pure-button-secondary" id="load_intervals" data-url="<%= url_for(action: 'get_interval', :only_path => false) -%>">mehr...</a>
+
+                    </div>
+                        
                 </p>
             </div>
 

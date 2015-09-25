@@ -1,8 +1,14 @@
 
 
 var Dashboard = {
+	url: '',
+
 	init: function(){
 		$('.mode_buttons a').click(this.resetModeButtons);
+		
+		$('#load_intervals').click(this.loadIntervals);
+
+		
 	},
 
 	setModeButton: function(mode){
@@ -16,21 +22,54 @@ var Dashboard = {
 	},
 
 	requestStatus: function(url){
-		console.log('query', url);
-		$.getJSON(url).then(this.processStatus)
+		this.url = url;
+		$.getJSON(url).then(this.processStatus);
 	},
 
 	processStatus: function(json){
-		console.log('mode', json.mode);
+		//console.log('mode', json.mode);
 		Dashboard.setModeButton(json.mode);
 
 		$('#temperature_display').text(json.temp + "°C");
 		$('#humidity_display').text(json.humidity);
 
+		$('#time_display').text("Uhrzeit " + json.time);
+		var d = json.date.split('.');
+		var date = new Date(d[2], d[1], d[0]);
+		var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+	
+		$('#date_display').text( date.toLocaleDateString('de-DE', options) );
+
+
 		json.valves.forEach(function(element, index, array){
-			console.log(element, index, array);
+			//console.log(element, index, array);
 			if (element == 1) $('#valve_' + index).addClass('active');
 		});
 	},
+
+	loadIntervals: function(){
+		var url = $(this).data('url');
+		var container = $("#intervals_holder");
+		container.empty();
+		var table = container.append("<table>");
+
+		for (var i=0;i<6;i++){
+			table.append("<tr id='interval_" + i + "'>");
+			$.getJSON(url + "?id=" + i).then(Dashboard.processInterval);
+		}
+	},
+
+	processInterval: function(json){
+		console.log('processInterval', json);
+		var id = json.interval.id;
+		var $tr = $("#interval_" + id);
+		$tr.empty();
+		//$tr.append("<td>" + id + "</td>");
+		$tr.append("<td>" + json.on_time + "</td>");
+		$tr.append("<td>" + json.off_time + "</td>");
+		$tr.append("<td>" + json.repeat_human + "</td>");
+		$tr.append("<td>" + json.interval.mode + "</td>");
+	},
+
 
 }
