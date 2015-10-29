@@ -61,6 +61,18 @@ class DashboardController < ApplicationController
 
 	end
 
+
+
+	def set_time
+		timecode = Net::NTP.get.time.to_i # Net::NTP.get("us.pool.ntp.org")
+		answer = send_cmd("ST#{timecode}")
+		#answer = '1 | 870 | 1290 | 11 | 1\r\n'
+		render json: {
+			answer: answer,
+		}
+	end
+
+
 private 
 
 	def set_access_control_headers

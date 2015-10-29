@@ -14,9 +14,6 @@ gem "font-awesome-rails"
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 
-# Use CoffeeScript for .js.coffee assets and views
-#gem 'coffee-rails', '~> 4.0.0'
-
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
@@ -29,20 +26,11 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
 
-group :doc do
-  # bundle exec rake doc:rails generates the API under doc/api.
-  # gem 'sdoc', require: false
-end
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
-# Use unicorn as the app server
-# gem 'unicorn'
+# app server
 gem 'thin'
-
-# Use Capistrano for deployment
-# gem 'capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
@@ -51,6 +39,9 @@ gem 'rubyserial'
 gem 'whenever'#, :require => false # cron jobs for reading xbee
 gem 'databound', '3.0.3' # js helper for rails models https://github.com/Nedomas/databound
 gem 'lodash-rails' # dependency of databound
+
+# NTP Time Access, https://github.com/zencoder/net-ntp
+gem 'net-ntp' 
 
 group :development do
     	gem 'capistrano', '~> 3.0', require: false, group: :development
