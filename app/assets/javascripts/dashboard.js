@@ -64,15 +64,17 @@ var Dashboard = {
 
 	processInterval: function(json){
 		console.log('processInterval', json);
-		var id = json.interval.id;
-		var $tr = $("#interval_" + id);
-		$tr.empty();
-		//$tr.append("<td>" + id + "</td>");
-		$tr.append("<td>" + json.interval.mode_human + "</td>");
-		$tr.append("<td>" + json.on_time + "</td>");
-		$tr.append("<td>bis</td>");
-		$tr.append("<td>" + json.off_time + "</td>");
-		$tr.append("<td>" + json.repeat_human + "</td>");
+		if (json.interval.on !== 0 && json.interval.off !== 0){
+			var id = json.interval.id;
+			var $tr = $("#interval_" + id);
+			$tr.empty();
+			//$tr.append("<td>" + id + "</td>");
+			$tr.append("<td>" + json.mode_human + "</td>");
+			$tr.append("<td>" + json.on_time + "</td>");
+			$tr.append("<td>bis</td>");
+			$tr.append("<td>" + json.off_time + "</td>");
+			$tr.append("<td>" + json.repeat_human + "</td>");
+		}
 	},
 
 

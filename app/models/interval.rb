@@ -65,7 +65,7 @@ class Interval
 
 	def mode_human
 
-		case repeat
+		case mode
 			when 0
   				"Thermostat"
 			when 1

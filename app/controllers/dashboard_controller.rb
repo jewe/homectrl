@@ -23,7 +23,7 @@ class DashboardController < ApplicationController
 		render json: {
 			mode: mode,
 			time: time,
-			date: "#{d}.#{m}.#{y}",
+			date: "#{d}.#{m.to_i - 1}.#{y}",
 			thermostats: thermostats, 
 			humidity: humidity,
 			temp: temp,
@@ -64,11 +64,13 @@ class DashboardController < ApplicationController
 
 
 	def set_time
-		timecode = Net::NTP.get.time.to_i # Net::NTP.get("us.pool.ntp.org")
+		date_time = Net::NTP.get.time # Net::NTP.get("us.pool.ntp.org")
+		timecode = date_time.to_i + date_time.utc_offset
 		answer = send_cmd("ST#{timecode}")
-		#answer = '1 | 870 | 1290 | 11 | 1\r\n'
 		render json: {
 			answer: answer,
+			tc: date_time,
+
 		}
 	end
 
